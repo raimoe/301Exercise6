@@ -2,7 +2,7 @@ public class Search{
 	// Searches for a target integer x in the first n elements of
 	// an array list arr through recursion.
 
-	static EasySearch(int arr[], int left, int right, int x){
+	static int EasySearch(int arr[], int left, int right, int x){
 		if (right >= 1){
 			int mid = (left + (right-left)) / 2;
 
