@@ -1,6 +1,6 @@
 public class Search{
 	// Searches for a target integer x in the first n elements of
-	// an array list arr through recursion.
+	// a sorted array list arr through recursion.
 
 	static int EasySearch(int arr[], int left, int n, int x){
 		if (n >= left){
@@ -28,6 +28,7 @@ public class Search{
 	public static void main(String args[]){
 		// n is the given range to search the target integer
 		// i.e, find the target integer up to the nth place
+		// array given must be sorted
 		Search search = new Search();
 		int arr[] = { 1, 4, 5, 6, 9, 10, 12, 15, 22, 35 };
 		int n = 8;
